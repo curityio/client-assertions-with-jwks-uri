@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  curity-idsvr:
+    image: curity.azurecr.io/curity/idsvr:latest
+    ports:
+      - 6749:6749
+      - 8443:8443
+    extra_hosts:
+     - jwks-server:host-gateway
+    environment:
+      PASSWORD: 'Password1'
+      LOGGING_LEVEL: 'DEBUG'

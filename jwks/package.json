@@ -1,0 +1,10 @@
+{
+    "name": "assertion-endpoint",
+    "version": "1.0.0",
+    "description": "A simple Node.js API to provide a JWKS URI",
+    "scripts": {
+      "start": "node src/api.mjs"
+    },
+    "author": "Curity",
+    "license": "Apache-2.0"
+  }

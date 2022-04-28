@@ -1,0 +1,16 @@
+{
+    "name": "assertion-client",
+    "version": "1.0.0",
+    "description": "A simple Node.js client that uses assertions",
+    "scripts": {
+        "start": "node src/client.mjs"
+    },
+    "author": "Curity",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "guid-typescript": "^1.0.9",
+        "jose": "^4.6.0",
+        "jsrsasign": "^10.5.20",
+        "node-fetch": "^3.2.3"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "jwk-deployment",
+    "version": "1.0.0",
+    "description": "Deploys a demo JSON Web Key",
+    "scripts": {
+        "start": "node src/deploy.mjs"
+    },
+    "author": "Curity",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "jose": "^4.6.0",
+        "jsrsasign": "^10.5.20"
+    }
+}

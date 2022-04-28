@@ -1,0 +1,47 @@
+<config xmlns="http://tail-f.com/ns/config/1.0">
+  <profiles xmlns="https://curity.se/ns/conf/base">
+  <profile>
+    <id>token-service</id>
+    <type xmlns:as="https://curity.se/ns/conf/profile/oauth">as:oauth-service</type>
+      <settings>
+      <authorization-server xmlns="https://curity.se/ns/conf/profile/oauth">
+      <client-authentication>
+        <asymmetrically-signed-jwt>
+          <signature-algorithm>PS256</signature-algorithm>
+        </asymmetrically-signed-jwt>
+      </client-authentication>
+      <client-capabilities>
+        <assertion>
+          <asymmetrically-signed-jwt>
+            <signature-algorithm>PS256</signature-algorithm>
+          </asymmetrically-signed-jwt>
+        </assertion>
+      </client-capabilities>
+      <scopes>
+        <scope>
+          <id>read</id>
+        </scope>
+      </scopes>
+      <client-store>
+      <config-backed>
+      <client>
+        <id>partner-api-client</id>
+        <client-name>partner-api-client</client-name>
+        <jwks-uri>
+          <uri>http://jwks-server/.well-known/jwks</uri>
+        </jwks-uri>
+        <scope>read</scope>
+        <capabilities>
+          <client-credentials/>
+        </capabilities>
+        <use-pairwise-subject-identifiers>
+          <sector-identifier>partner-api-client</sector-identifier>
+        </use-pairwise-subject-identifiers>
+      </client>
+      </config-backed>
+      </client-store>
+      </authorization-server>
+      </settings>
+  </profile>
+  </profiles>
+</config>
