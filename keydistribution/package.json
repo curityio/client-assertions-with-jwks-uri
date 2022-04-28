@@ -1,7 +1,7 @@
 {
-    "name": "jwk-deployment",
+    "name": "key-distribution",
     "version": "1.0.0",
-    "description": "Deploys a demo JSON Web Key",
+    "description": "Demo level key deployment to demonstrate the key behavior",
     "scripts": {
         "start": "node src/deploy.mjs"
     },
