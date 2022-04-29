@@ -28,7 +28,7 @@
         <id>partner-api-client</id>
         <client-name>partner-api-client</client-name>
         <jwks-uri>
-          <uri>http://jwks-server/.well-known/jwks</uri>
+          <uri>http://jwks-server:3000/.well-known/jwks</uri>
         </jwks-uri>
         <scope>read</scope>
         <capabilities>
