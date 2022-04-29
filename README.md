@@ -69,7 +69,7 @@ Using client assertions has no impact on the API's code, and no special infrastr
 
 ## Website Documentation
 
-See the [API Secured by JWT Assertions](https://curity.io/resources/learn/api-jwt-assertions) for further details on designing a data protection solution using message level security.
+See the [API Secured by JWT Assertions](https://curity.io/resources/learn/api-jwt-assertions) for further details on the end-to-end solution.
 
 ## More Information
 

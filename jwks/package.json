@@ -1,5 +1,5 @@
 {
-    "name": "assertion-endpoint",
+    "name": "example-jwks-uri",
     "version": "1.0.0",
     "description": "A simple Node.js API to provide a JWKS URI",
     "scripts": {
