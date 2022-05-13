@@ -13,7 +13,7 @@ import {KEYUTIL} from 'jsrsasign';
     var keystore = KEYUTIL.getPEM(KEYUTIL.getKey(privateKey), 'PKCS8PRV', 'top secret', 'AES-256-CBC');
     fs.writeFileSync('../client/private.key', keystore);
 
-    // Deploy the public key to the JWKS provided by the API owner
+    // Deploy the public key to the API serving the JWKS URI
     var publicJwk = await exportJWK(keyPair.publicKey);
     publicJwk.alg = algorithm;
     publicJwk.kid = '1';
