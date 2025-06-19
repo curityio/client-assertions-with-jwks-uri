@@ -34,9 +34,6 @@
         <capabilities>
           <client-credentials/>
         </capabilities>
-        <use-pairwise-subject-identifiers>
-          <sector-identifier>partner-api-client</sector-identifier>
-        </use-pairwise-subject-identifiers>
       </client>
       </config-backed>
       </client-store>
