@@ -1,5 +1,8 @@
 # Client Assertions and the JWKS URI
 
+[![Quality](https://img.shields.io/badge/quality-demo-red)](https://curity.io/resources/code-examples/status/)
+[![Availability](https://img.shields.io/badge/availability-source-blue)](https://curity.io/resources/code-examples/status/)
+
 A code example to demonstrate an end-to-end solution using client assertions and a JWKS URI.\
 This strong security option could be used for many security use cases, such as B2B APIs.
 
